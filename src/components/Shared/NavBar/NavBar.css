@@ -1,0 +1,39 @@
+.navbar-background-color{
+  background-color: #AD256C;
+}
+.border-none{
+  border-width:0px;
+border:none;
+outline:none;
+}
+select {
+  margin: 50px;
+  width: 160px;
+  padding: 5px 35px 5px 5px;
+  font-size: 16px;
+  /* border: 1px solid white; */
+  height: 34px;
+  /* -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none; */
+  /* background: url(https://stackoverflow.com/favicon.ico) 96% / 15% no-repeat #FFFFFF; */
+  border:none;
+outline:none;
+}
+/* select:hover {
+  background-image: linear-gradient(var(--accentFg), var(--accentFg)),
+    linear-gradient(-135deg, transparent 50%, var(--accentFg) 50%),
+    linear-gradient(-225deg, transparent 50%, var(--accentFg) 50%),
+    linear-gradient(var(--accentFg) 42%, var(--accentBg) 42%);
+} */
+
+/* input:focus, textarea:focus, select:focus{
+  outline: none;
+} */
+/* only affix the top navbar on mobile */
+/* @media (max-width: 768px) {
+    .item-left {
+      margin-right: auto!important;
+    }
+   
+} */
