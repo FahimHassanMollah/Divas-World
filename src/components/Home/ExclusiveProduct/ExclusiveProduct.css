@@ -1,0 +1,112 @@
+.underline{
+    display: inline-block;
+    padding-bottom: 10px;
+    position: relative;
+}
+.underline::after{
+    content: "";
+    position: absolute;
+    width: 40%;
+    height: 4px!important;
+    bottom: 0;
+    left: 30%;
+    background-color: #C06092;
+    border-radius: 10px 10px;
+    /* border-bottom: px solid red; */
+}
+.tab-item a{
+    font-size: 22px;
+    display: block;
+    padding: 0px 20px!important;
+   
+}
+.tab-item a:hover{
+    color: #C06092!important;
+}
+.card-deck {
+    margin: 0 -15px!important;
+    justify-content: space-between!important;
+  }
+  
+  .card-deck .card {
+    margin: 0 0 1rem!important;
+  }
+/* .card{
+    border: 0px solid white!important;
+} */
+.border-radius{
+    border-radius: 10px 10px 0px 0px!important;
+}
+.container-card{
+    position: relative;
+   
+}
+.overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.4);
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    transform: scale(0);
+    transition: .9s ease;
+    border-radius: 10px 10px 10px 10px!important;
+  
+  }
+  .container-card:hover .overlay {
+    transition: .6s ease;
+    transform: scale(1);
+  }
+  .icon {
+    color: white;
+    font-size: 100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  .text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    cursor: pointer;
+  }
+  .star-color{
+      color: #FD881B;
+      font-size: 17px;
+  }
+  .primary-color{
+      color: #C06092;
+  }
+  
+  @media (min-width: 576px) and (max-width: 767.98px) {
+    .card-deck .card {
+      -ms-flex: 0 0 48.7%!important;
+      flex: 0 0 48.7%!important;
+    }
+  }
+  
+  @media (min-width: 768px) and (max-width: 991.98px) {
+    .card-deck .card {
+      -ms-flex: 0 0 32%!important;
+      flex: 0 0 32%!important;
+    }
+  }
+  
+  @media (min-width: 992px)
+  {
+    .card-deck .card {
+      -ms-flex: 0 0 24%!important;
+      flex: 0 0 24%!important;
+    }
+  }
+  
