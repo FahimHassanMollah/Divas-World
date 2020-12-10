@@ -1,0 +1,16 @@
+.underline-brand{
+    display: inline-block;
+    padding-bottom: 6px;
+    position: relative;
+}
+.underline-brand::after{
+    content: "";
+    position: absolute;
+    width: 49%;
+    height: 4px!important;
+    bottom: 0;
+    left: 33%;
+    background-color: #C06092;
+    border-radius: 10px 10px;
+    /* border-bottom: px solid red; */
+}

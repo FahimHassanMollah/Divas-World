@@ -41,6 +41,18 @@
     position: relative;
    
 }
+.container-card:hover .star-content{
+  display: none;
+}
+.container-card:hover .cicle-color{
+  visibility: visible;
+  /* transition: .8s ease; */
+}
+.cicle-color{
+  
+ visibility: hidden;
+ /* transition: .4s ease; */
+}
 .overlay {
     position: absolute;
     bottom: 0;
@@ -59,12 +71,22 @@
     transition: .6s ease;
     transform: scale(1);
   }
+  .dot {
+    cursor: pointer;
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 10px;
+  }
   .icon {
-    color: white;
-    font-size: 100px;
+    /* color: pink; */
+    /* font-size: 100px; */
     position: absolute;
+    /* width: 100px; */
     top: 50%;
     left: 50%;
+    
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     text-align: center;
@@ -88,6 +110,36 @@
       color: #C06092;
   }
   
+  .primary-background-color{
+      background-color: #AD256C;
+      border-radius: 10px 10px;
+      cursor: pointer;
+      /* color: white; */
+  }
+  .img-size{
+    width: 20px;
+    /* margin: 20px!important; */
+  }
+  
+  .carousel-indicators li {
+    width: 10px!important;
+    height: 10px!important;
+    border-radius: 100%!important;
+    /* display:block; */
+    color: red!important;
+    background-color: #AD256C!important;
+  }
+/* .background-color-slider{
+    background-color: #EFEFEF;
+} */
+/* .card-deck {
+  width: 1200px;
+  margin: 0 auto;
+  position:relative;
+  top:30px;
+  z-index:1;
+}
+   */
   @media (min-width: 576px) and (max-width: 767.98px) {
     .card-deck .card {
       -ms-flex: 0 0 48.7%!important;

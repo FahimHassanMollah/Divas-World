@@ -34,7 +34,7 @@
   
   }
   .container-card:hover .overlay-image {
-    transition: .6s ease;
+    transition: .4s ease;
     transform: scale(1);
   }
  
@@ -53,10 +53,16 @@
     background-color: #AD256C;
   border: none;
   color: white;
-  padding: 8px 35px;
+  padding: 4px 25px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 16px;
+  font-size: 14px;
   border-radius: 20px;
+}
+.background-image{
+  background-image: url('../../../images/backgroundImage.png');
+  background-repeat: no-repeat;
+  background-size: initial;
+  background-position:left -100px  bottom ;
 }

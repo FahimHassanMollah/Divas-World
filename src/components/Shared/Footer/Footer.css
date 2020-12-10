@@ -1,0 +1,38 @@
+.footer li{
+    text-decoration: none;
+    list-style: none;
+}
+.footer h4{
+    text-align: left!important;
+}
+.footer ul li a{
+    /* display: block; */
+    text-decoration: none;
+    /* font-size: 18px; */
+    color: #515151;
+    text-align: left!important;
+}
+.footer-headline{
+    display: inline-block;
+    text-decoration: none!important;
+    font-size: 20px;
+    font-weight: 500;
+    color: black;
+    margin-bottom: 10px!important;
+
+}
+.pading-left{
+    padding-left: 50px!important;
+}
+@media screen and (max-width: 768px) {
+  .responsive-footer{
+      display: flex!important;
+      flex-direction: column!important;
+      align-items: center!important;
+      justify-content: center!important;
+
+}
+.pading-left{
+    padding-left: 20px!important;
+}
+  }

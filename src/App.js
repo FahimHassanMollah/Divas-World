@@ -8,6 +8,7 @@ import {
 } from "react-router-dom";
 import Header from './components/Home/Header/Header';
 import Home from './components/Home/Home/Home';
+import Footer from './components/Shared/Footer/Footer';
 function App() {
   return (
     <div className="">
@@ -31,6 +32,7 @@ function App() {
             <NoMatch />
           </Route> */}
         </Switch>
+        <Footer></Footer>
       </div>
     </Router>
     </div>

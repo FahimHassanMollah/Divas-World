@@ -1,4 +1,6 @@
 import React from 'react'
+import Brand from '../Brand/Brand'
+import CustomerReview from '../CustomerReview/CustomerReview'
 import ExclusiveProduct from '../ExclusiveProduct/ExclusiveProduct'
 import MiddleBanner from '../MiddleBanner/MiddleBanner'
 import Slider from '../Slider/Slider'
@@ -14,6 +16,8 @@ const Home = () => {
             <ExclusiveProduct></ExclusiveProduct>
             <MiddleBanner></MiddleBanner>
             <TopCollesction></TopCollesction>
+            <CustomerReview></CustomerReview>
+            <Brand></Brand>
         </div>
     )
 }

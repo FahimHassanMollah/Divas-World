@@ -1,0 +1,49 @@
+.underline{
+    display: inline-block;
+    padding-bottom: 10px;
+    position: relative;
+}
+.underline::after{
+    content: "";
+    position: absolute;
+    width: 40%;
+    height: 4px!important;
+    bottom: 0;
+    left: 30%;
+    background-color: #C06092;
+    border-radius: 10px 10px;
+    /* border-bottom: px solid red; */
+}
+.fard{
+    position: relative;
+    /* border-radius: 2px; */
+    background: #fff;
+    box-shadow: 0 6px 10px rgba(0,0,0,.08), 0 0 6px rgba(0,0,0,.05);
+    /* transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12); */
+    /* padding: 10px 10px; */
+  /* cursor: pointer; */
+}
+
+
+/* .fard:hover{
+    transform: scale(1.06);
+    transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
+    box-shadow: 0 20px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+} */
+
+.coma-gray{
+    background-image: url('../../../images/comaGray.png');
+    background-repeat: no-repeat;
+}
+.fard:before {
+    content: "";
+    background-image: url('../../../images//comaColorFull.png');
+    background-size: initial;
+    background-repeat: no-repeat;
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    display: block;
+    top: -12px;
+    left: 20px;
+  }
